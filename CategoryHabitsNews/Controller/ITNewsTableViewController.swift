@@ -24,6 +24,7 @@ class ITNewsTableViewController: UITableViewController,SegementSlideContentScrol
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.tableView.frame.width, height: self.tableView.frame.size.height))
         imageView.image = image
         imageView.alpha = 1
+        
         self.tableView.backgroundView = imageView
         //XMLパース
         let urlString = "https://news.yahoo.co.jp/rss/topics/it.xml"
