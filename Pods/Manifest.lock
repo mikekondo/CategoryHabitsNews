@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (5.0.5)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - DTGradientButton (0.1.3)
+  - ImpressiveNotifications (0.5.0)
+  - lottie-ios (3.2.3)
+  - PKHUD (5.3.0)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SegementSlide (3.0.1)
+  - SwiftyJSON (4.3.0)
+  - VerticalCardSwiper (2.3.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - ChameleonFramework/Swift
+  - DTGradientButton
+  - ImpressiveNotifications
+  - lottie-ios
+  - PKHUD (~> 5.0)
+  - SDWebImage (~> 5.0)
+  - SegementSlide
+  - SwiftyJSON (~> 4.0)
+  - VerticalCardSwiper
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ChameleonFramework
+    - DTGradientButton
+    - ImpressiveNotifications
+    - lottie-ios
+    - PKHUD
+    - SDWebImage
+    - SegementSlide
+    - SwiftyJSON
+    - VerticalCardSwiper
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  DTGradientButton: 6f0f696cd433255d226c05e4ab047d991d13d4ef
+  ImpressiveNotifications: 9a3921276e916e244abb7e4b2a6661133479a17c
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SegementSlide: 83b56ffb66b9c0edc4e4f2a74229309c62915db3
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  VerticalCardSwiper: 68df635b354500f86934ea044ade37a264c044c6
+
+PODFILE CHECKSUM: 813741565bc7fc660d4b275200d18f547d8cc3ac
+
+COCOAPODS: 1.10.2

@@ -1,0 +1,6 @@
+framework module ImpressiveNotifications {
+  umbrella header "ImpressiveNotifications-umbrella.h"
+
+  export *
+  module * { export * }
+}
