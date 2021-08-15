@@ -59,7 +59,7 @@ class NPNewsTableViewController: UITableViewController,SegementSlideContentScrol
         cell.textLabel?.font = UIFont.boldSystemFont(ofSize: 25.0)
         cell.textLabel?.textColor = .white
         cell.textLabel?.numberOfLines = 2
-        cell.detailTextLabel?.text = newsItems.url
+        cell.detailTextLabel?.text = newsItems.pubDate
         cell.detailTextLabel?.textColor = .white
         cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 20.0)
         return cell

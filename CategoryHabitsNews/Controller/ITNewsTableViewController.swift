@@ -58,7 +58,7 @@ class ITNewsTableViewController: UITableViewController,SegementSlideContentScrol
         cell.textLabel?.textColor = .white
         cell.textLabel?.numberOfLines = 0
         //セルの二行目
-        cell.detailTextLabel?.text = newsItems.url
+        cell.detailTextLabel?.text = newsItems.pubDate
         cell.detailTextLabel?.textColor = .white
         cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 20.0)
 
