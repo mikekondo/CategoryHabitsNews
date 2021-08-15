@@ -17,6 +17,8 @@ class ITNewsTableViewController: UITableViewController,SegementSlideContentScrol
         super.viewDidLoad()
         //tableViewを透明にする
         tableView.backgroundColor = .clear
+        //tableViewの線の色
+        tableView.separatorColor = .gray
         //画像をtableViewの下に置く
         let image = UIImage(named:  "IT")
         let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: self.tableView.frame.width, height: self.tableView.frame.size.height))
@@ -44,6 +46,7 @@ class ITNewsTableViewController: UITableViewController,SegementSlideContentScrol
         // #warning Incomplete implementation, return the number of rows
         return newsItems.count
     }
+    //セルの高さ
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return view.frame.size.height/4
     }
@@ -60,7 +63,7 @@ class ITNewsTableViewController: UITableViewController,SegementSlideContentScrol
         //セルの二行目
         cell.detailTextLabel?.text = newsItems.pubDate
         cell.detailTextLabel?.textColor = .white
-        cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 20.0)
+        cell.detailTextLabel?.font = UIFont.boldSystemFont(ofSize: 25.0)
 
         return cell
     }
