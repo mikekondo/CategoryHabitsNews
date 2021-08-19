@@ -116,27 +116,44 @@
             </objects>
             <point key="canvasLocation" x="954" y="715"/>
         </scene>
-        <!--Tab View Controller-->
+        <!--Congestion View Controller-->
         <scene sceneID="YW1-wI-OWj">
             <objects>
-                <viewController id="bk1-dW-FCb" customClass="TabViewController" customModule="CategoryHabitsNews" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="bk1-dW-FCb" customClass="CongestionViewController" customModule="CategoryHabitsNews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KBK-UT-58S">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="uQ3-mc-KOy">
+                                <rect key="frame" x="20" y="100" width="62" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B2U-FD-9Mz">
+                                <rect key="frame" x="0.0" y="831" width="414" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="⇦" id="fh1-c0-r6h"/>
+                                </items>
+                            </toolbar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="XF8-iQ-6qf"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="VJd-uZ-Ykc"/>
+                    <connections>
+                        <outlet property="indicator" destination="uQ3-mc-KOy" id="c8G-hP-ZFY"/>
+                        <outlet property="toolBar" destination="B2U-FD-9Mz" id="Ff4-JJ-4xy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NKo-DW-fSf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1860.8695652173915" y="1467.8571428571429"/>
         </scene>
-        <!--Item-->
+        <!--Congestion-->
         <scene sceneID="Lxf-hb-mqP">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IbC-lA-cZy" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Pob-eY-BjE"/>
+                    <tabBarItem key="tabBarItem" title="Congestion" id="Pob-eY-BjE"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jFH-RF-chw">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

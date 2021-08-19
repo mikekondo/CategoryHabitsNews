@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95A5779C26CE8BC500D58C9C /* CongestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5779B26CE8BC500D58C9C /* CongestionViewController.swift */; };
 		95E3947A26C295960050B8C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3947926C295960050B8C6 /* AppDelegate.swift */; };
 		95E3947C26C295960050B8C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E3947B26C295960050B8C6 /* SceneDelegate.swift */; };
 		95E3948126C295960050B8C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95E3947F26C295960050B8C6 /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		188DCF35DE4D46A5293D6402 /* Pods_CategoryHabitsNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CategoryHabitsNews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C11C0B92178EAC543607C2 /* Pods-CategoryHabitsNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryHabitsNews.release.xcconfig"; path = "Target Support Files/Pods-CategoryHabitsNews/Pods-CategoryHabitsNews.release.xcconfig"; sourceTree = "<group>"; };
 		60F461E1D777485F33A0174F /* Pods-CategoryHabitsNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CategoryHabitsNews.debug.xcconfig"; path = "Target Support Files/Pods-CategoryHabitsNews/Pods-CategoryHabitsNews.debug.xcconfig"; sourceTree = "<group>"; };
+		95A5779B26CE8BC500D58C9C /* CongestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongestionViewController.swift; sourceTree = "<group>"; };
 		95E3947626C295960050B8C6 /* CategoryHabitsNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CategoryHabitsNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95E3947926C295960050B8C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95E3947B26C295960050B8C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				95E3949C26C29BA20050B8C6 /* WorldNewsTableViewController.swift */,
 				95E3949E26C29BB30050B8C6 /* BillboardTableViewController.swift */,
 				95E394A026C29BC20050B8C6 /* NPNewsTableViewController.swift */,
+				95A5779B26CE8BC500D58C9C /* CongestionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				95E3949326C297AA0050B8C6 /* CountViewController.swift in Sources */,
 				95E3947A26C295960050B8C6 /* AppDelegate.swift in Sources */,
 				95E3947C26C295960050B8C6 /* SceneDelegate.swift in Sources */,
+				95A5779C26CE8BC500D58C9C /* CongestionViewController.swift in Sources */,
 				95E3949726C29B130050B8C6 /* WebViewController.swift in Sources */,
 				95E3949B26C29B7B0050B8C6 /* DomesticNewsTableViewController.swift in Sources */,
 				95E3949D26C29BA20050B8C6 /* WorldNewsTableViewController.swift in Sources */,
