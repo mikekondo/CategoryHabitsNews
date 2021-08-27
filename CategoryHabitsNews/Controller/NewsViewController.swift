@@ -11,10 +11,14 @@ class NewsViewController: SegementSlideDefaultViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "今日のnews!!"
+        self.title = "News"
         //SegementSlideDefaultViewControllerによるもの(デリゲートメソッドではない)
         reloadData()
         defaultSelectedIndex = 0
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        //ナビゲーションバーを隠す
+        self.navigationController?.isNavigationBarHidden = true
     }
     //SegementSlideDefaultViewControllerによるもの
     override var titlesInSwitcher: [String]{

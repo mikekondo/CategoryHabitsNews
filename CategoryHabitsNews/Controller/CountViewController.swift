@@ -15,6 +15,11 @@ class CountViewController: UIViewController {
     @IBOutlet weak var countLabel: UILabel!
     @IBOutlet weak var secondArticle: UILabel!
     @IBOutlet weak var dayLabel: UILabel!
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        //ナビゲーションバーを隠す
+        self.navigationController?.isNavigationBarHidden = true
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         //背景を動画にする

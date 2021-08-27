@@ -30,14 +30,14 @@ class CongestionViewController: UIViewController,WKNavigationDelegate {
         
         indicator.layer.zPosition = 2
     }
+    override func viewWillAppear(_ animated: Bool) {
+        //ナビゲーションバーを隠す
+        self.navigationController?.isNavigationBarHidden = true
+    }
     func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        
-        
         //ロードが完了したときに呼ばれるデリゲートメソッド
         indicator.isHidden = true
         indicator.stopAnimating()
-        
-        
     }
     func webView(_ webView: WKWebView, didCommit navigation: WKNavigation!) {
         
