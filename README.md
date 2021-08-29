@@ -20,7 +20,9 @@
 # Requirement
 
 ・xcode 12.5.1
+
 ・swift 5
+
 ・StoryBoard
 
 # Installation
