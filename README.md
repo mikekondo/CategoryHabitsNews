@@ -10,20 +10,20 @@
 </p>
 
 # Features
-・アプリを開いた回数(日数)を表示
+* アプリを開いた回数(日数)を表示
 
-・IT、国内、国外、Billboardなどの
+* IT、国内、国外、Billboardなどの
 　タグ別でニュース内容を表示
 
-・人口密度をカラーマップで表示
+* 人口密度をカラーマップで表示
 
 # Requirement
 
-・xcode 12.5.1
+* xcode 12.5.1
 
-・swift 5
+* swift 5
 
-・StoryBoard
+* StoryBoard
 
 # Installation
 ### CocoaPods
