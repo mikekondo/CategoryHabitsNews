@@ -25,6 +25,8 @@
 
 * StoryBoard
 
+* 実機のiPhone8で動作確認済みです。
+
 # Installation
 ### CocoaPods
 ```ruby
